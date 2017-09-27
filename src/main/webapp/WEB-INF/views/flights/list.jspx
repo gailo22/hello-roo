@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_gailo22_domain_Flight" items="${flights}" z="n7uDoqqvR8Llebw4qKffuGL/H54=">
+        <table:table data="${flights}" id="l_com_gailo22_domain_Flight" path="/flights" typeIdFieldName="flightId" z="UJ/2rL1+BJ/YHv4fuYF7cKzJGqI=">
+            <table:column id="c_com_gailo22_domain_Flight_flightDescription" property="flightDescription" z="FAUet6eHmBtHH7W5bJ4tr247lOM="/>
+        </table:table>
+    </page:list>
+</div>

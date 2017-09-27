@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_gailo22_domain_Booking" items="${bookings}" z="0Lm1r3j8mb3BhZfKswHz6AayRzU=">
+        <table:table data="${bookings}" id="l_com_gailo22_domain_Booking" path="/bookings" typeIdFieldName="bookingId" z="sa5xKHtflTft1yKioTpaqNqmoVk=">
+            <table:column id="c_com_gailo22_domain_Booking_name" property="name" z="I8QDsfenYa58qb+sDQTh6LTf6KE="/>
+            <table:column id="c_com_gailo22_domain_Booking_email" property="email" z="Q66LfFSR6sl77GK6YkEEZDBH2CA="/>
+            <table:column id="c_com_gailo22_domain_Booking_flight" property="flight" z="mHInpgXgVZmNsFQ54HwP2L54uaQ="/>
+        </table:table>
+    </page:list>
+</div>

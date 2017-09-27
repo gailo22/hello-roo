@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_flight" z="My3aw7st9/lPi4/72GrekPCYuWM=">
+            <menu:item id="i_flight_new" messageCode="global_menu_new" url="/flights?form" z="opwPKDFqpdHotAZ0M/SeEslICC4="/>
+            <menu:item id="i_flight_list" messageCode="global_menu_list" url="/flights?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Nmxm7TkpCAPwz5dL5+2CKdcXKXE="/>
+        </menu:category>
+        <menu:category id="c_flightdescription" z="+ISg7hWkONFMW0qEi6VvNHkuwuY=">
+            <menu:item id="i_flightdescription_new" messageCode="global_menu_new" url="/flightdescriptions?form" z="DFDc4F2kZR5ysns4ZeMk5pr3E84="/>
+            <menu:item id="i_flightdescription_list" messageCode="global_menu_list" url="/flightdescriptions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="QWRdv+yksc8776lKAxPNYvNvrGs="/>
+        </menu:category>
+        <menu:category id="c_booking" z="EqHElhWCzlLsU9/md/aV2sSwT7w=">
+            <menu:item id="i_booking_new" messageCode="global_menu_new" url="/bookings?form" z="Mw7AwtmdsF1Wv2S1c/H/IOT5Y0o="/>
+            <menu:item id="i_booking_list" messageCode="global_menu_list" url="/bookings?page=1&amp;size=${empty param.size ? 10 : param.size}" z="DFv+GyTKfhi+lzOhpHycqlsm4+M="/>
+        </menu:category>
+    </menu:menu>
+</div>

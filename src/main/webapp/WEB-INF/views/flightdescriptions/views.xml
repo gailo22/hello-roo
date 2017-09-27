@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="flightdescriptions/list">
+        <put-attribute name="body" value="/WEB-INF/views/flightdescriptions/list.jspx"/>
+    </definition>
+<definition extends="default" name="flightdescriptions/show">
+        <put-attribute name="body" value="/WEB-INF/views/flightdescriptions/show.jspx"/>
+    </definition>
+<definition extends="default" name="flightdescriptions/create">
+        <put-attribute name="body" value="/WEB-INF/views/flightdescriptions/create.jspx"/>
+    </definition>
+<definition extends="default" name="flightdescriptions/update">
+        <put-attribute name="body" value="/WEB-INF/views/flightdescriptions/update.jspx"/>
+    </definition>
+</tiles-definitions>
